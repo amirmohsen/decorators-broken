@@ -9,4 +9,4 @@ Run the following commands to setup and run the project in order to see the erro
 - Run: `yarn start`
 
 ## What is going wrong?
-Instead of passing the result of one decorator to the next, the original value of the `Target` class gets passed to each decorator and as a result, the last applied decorator result overrides the preceeding ones.
+Instead of passing the result of one decorator to the next, the original value of the `Target` class gets passed to each decorator and as a result, the last applied decorator result overrides the preceding ones.
