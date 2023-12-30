@@ -1,0 +1,19 @@
+{
+  "name": "decorators-broken",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "babel src --out-dir dist --source-maps --config-file ./babel.cjs",
+    "watch": "yarn build --watch",
+    "start": "node --enable-source-maps ./dist",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/plugin-proposal-decorators": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "prettier": "^3.1.1"
+  }
+}
