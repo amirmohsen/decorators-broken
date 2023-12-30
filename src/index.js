@@ -22,4 +22,4 @@ const target = new Target();
 
 target.b();
 
-target.a();
+target.a(); // This throws an error: TypeError: target.a is not a function
